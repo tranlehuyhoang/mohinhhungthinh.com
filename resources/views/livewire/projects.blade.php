@@ -3,67 +3,8 @@
 
     <head>
 
-        <script>
-            (function(html) {
-                html.className = html.className.replace(/\bno-js\b/, 'js')
-            })(document.documentElement);
-        </script>
-        <title>Biệt thự &#8211; Kiến Trúc 1</title>
-        <script type="text/javascript">
-            window._wpemojiSettings = {
-                "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
-                "ext": ".png",
-                "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
-                "svgExt": ".svg",
-                "source": {
-                    "concatemoji": "https:\/\/kientruc4.mauthemewp.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.6"
-                }
-            };
-            /*! This file is auto-generated */
-            ! function(e, a, t) {
-                var n, r, o, i = a.createElement("canvas"),
-                    p = i.getContext && i.getContext("2d");
+        <title>Danh sách dự án</title>
 
-                function s(e, t) {
-                    p.clearRect(0, 0, i.width, i.height), p.fillText(e, 0, 0);
-                    e = i.toDataURL();
-                    return p.clearRect(0, 0, i.width, i.height), p.fillText(t, 0, 0), e === i.toDataURL()
-                }
-
-                function c(e) {
-                    var t = a.createElement("script");
-                    t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
-                }
-                for (o = Array("flag", "emoji"), t.supports = {
-                        everything: !0,
-                        everythingExceptFlag: !0
-                    }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
-                    if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
-                        case "flag":
-                            return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !
-                                1 : !s("\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !s(
-                                    "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                                    "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                                    );
-                        case "emoji":
-                            return !s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
-                                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
-                    }
-                    return !1
-                }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports
-                    .everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
-                t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
-                    .readyCallback = function() {
-                        t.DOMReady = !0
-                    }, t.supports.everything || (n = function() {
-                        t.readyCallback()
-                    }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !
-                        1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
-                        "complete" === a.readyState && t.readyCallback()
-                    })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e
-                        .wpemoji)))
-            }(window, document, window._wpemojiSettings);
-        </script>
         <style type="text/css">
             img.wp-smiley,
             img.emoji {
@@ -341,13 +282,7 @@
         <script type='text/javascript'
             src='/assets/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'>
         </script>
-        <link rel="https://api.w.org/" href="/assets/wp-json/" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD"
-            href="https://kientruc4.mauthemewp.com/xmlrpc.php?rsd" />
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-            href="/assets/wp-includes/wlwmanifest.xml" />
-        <meta name="generator" content="WordPress 6.2.6" />
-        <meta name="generator" content="WooCommerce 5.7.1" />
+
         <style>
             .bg {
                 opacity: 0;
@@ -561,136 +496,6 @@
     <body
         class="archive tax-featured_item_category term-biet-thu term-25 theme-flatsome woocommerce-no-js lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border featured-item-category-biet-thu">
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-dark-grayscale">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0 0.49803921568627" />
-                        <feFuncG type="table" tableValues="0 0.49803921568627" />
-                        <feFuncB type="table" tableValues="0 0.49803921568627" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-grayscale">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0 1" />
-                        <feFuncG type="table" tableValues="0 1" />
-                        <feFuncB type="table" tableValues="0 1" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-purple-yellow">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
-                        <feFuncG type="table" tableValues="0 1" />
-                        <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-blue-red">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0 1" />
-                        <feFuncG type="table" tableValues="0 0.27843137254902" />
-                        <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-midnight">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0 0" />
-                        <feFuncG type="table" tableValues="0 0.64705882352941" />
-                        <feFuncB type="table" tableValues="0 1" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-magenta-yellow">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0.78039215686275 1" />
-                        <feFuncG type="table" tableValues="0 0.94901960784314" />
-                        <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-purple-green">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
-                        <feFuncG type="table" tableValues="0 1" />
-                        <feFuncB type="table" tableValues="0.44705882352941 0.4" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-blue-orange">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0.098039215686275 1" />
-                        <feFuncG type="table" tableValues="0 0.66274509803922" />
-                        <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg>
-        <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
-
         <div id="wrapper">
 
 
@@ -714,7 +519,7 @@
                             <div class="row large-columns-4 medium-columns-3 small-columns-2 row-small">
                                 <div class="col" data-terms="[&quot;Biệt thự&quot;]">
                                     <div class="col-inner">
-                                        <a href="https://kientruc4.mauthemewp.com/nha-so-2/" class="plain ">
+                                        <a href="/project/nha-so-2/" class="plain ">
                                             <div class="portfolio-box box has-hover">
                                                 <div class="box-image">
                                                     <div class="">
@@ -740,7 +545,184 @@
                                 </div>
                                 <div class="col" data-terms="[&quot;Biệt thự&quot;]">
                                     <div class="col-inner">
-                                        <a href="https://kientruc4.mauthemewp.com/du-biet-thu-15/" class="plain ">
+                                        <a href="/project/du-biet-thu-15/" class="plain ">
+                                            <div class="portfolio-box box has-hover">
+                                                <div class="box-image">
+                                                    <div class="">
+                                                        <img width="280" height="400"
+                                                            src="/assets/wp-content/uploads/2018/02/150911_NH_Back-view.jpg"
+                                                            class="attachment-medium size-medium" alt=""
+                                                            decoding="async" loading="lazy"
+                                                            sizes="(max-width: 280px) 100vw, 280px" />
+                                                    </div>
+                                                </div>
+                                                <div class="box-text text-center">
+                                                    <div class="box-text-inner">
+                                                        <h6 class="uppercase portfolio-box-title">Dự án Biệt thự 15
+                                                        </h6>
+                                                        <p class="uppercase portfolio-box-category is-xsmall op-6">
+                                                            <span class="show-on-hover">
+                                                                Biệt thự </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col" data-terms="[&quot;Biệt thự&quot;]">
+                                    <div class="col-inner">
+                                        <a href="/project/nha-so-2/" class="plain ">
+                                            <div class="portfolio-box box has-hover">
+                                                <div class="box-image">
+                                                    <div class="">
+                                                        <img width="280" height="400"
+                                                            src="/assets/wp-content/uploads/2018/02/16.jpg"
+                                                            class="attachment-medium size-medium" alt=""
+                                                            decoding="async" loading="lazy"
+                                                            sizes="(max-width: 280px) 100vw, 280px" />
+                                                    </div>
+                                                </div>
+                                                <div class="box-text text-center">
+                                                    <div class="box-text-inner">
+                                                        <h6 class="uppercase portfolio-box-title">Nhà số 2</h6>
+                                                        <p class="uppercase portfolio-box-category is-xsmall op-6">
+                                                            <span class="show-on-hover">
+                                                                Biệt thự </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col" data-terms="[&quot;Biệt thự&quot;]">
+                                    <div class="col-inner">
+                                        <a href="/project/du-biet-thu-15/" class="plain ">
+                                            <div class="portfolio-box box has-hover">
+                                                <div class="box-image">
+                                                    <div class="">
+                                                        <img width="280" height="400"
+                                                            src="/assets/wp-content/uploads/2018/02/150911_NH_Back-view.jpg"
+                                                            class="attachment-medium size-medium" alt=""
+                                                            decoding="async" loading="lazy"
+                                                            sizes="(max-width: 280px) 100vw, 280px" />
+                                                    </div>
+                                                </div>
+                                                <div class="box-text text-center">
+                                                    <div class="box-text-inner">
+                                                        <h6 class="uppercase portfolio-box-title">Dự án Biệt thự 15
+                                                        </h6>
+                                                        <p class="uppercase portfolio-box-category is-xsmall op-6">
+                                                            <span class="show-on-hover">
+                                                                Biệt thự </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="portfolio-page-wrapper portfolio-archive page-featured-item">
+                    <div class="page-title">
+                        <div class="page-title-inner container flex-row">
+                            <div class="flex-col flex-grow">
+                                <h1 class="entry-title uppercase mb-0">
+                                    Biệt thự </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" role="main" class="page-wrapper">
+                        <div id="portfolio-368358947" class="portfolio-element-wrapper has-filtering">
+
+                            <div class="row large-columns-4 medium-columns-3 small-columns-2 row-small">
+                                <div class="col" data-terms="[&quot;Biệt thự&quot;]">
+                                    <div class="col-inner">
+                                        <a href="/project/nha-so-2/" class="plain ">
+                                            <div class="portfolio-box box has-hover">
+                                                <div class="box-image">
+                                                    <div class="">
+                                                        <img width="280" height="400"
+                                                            src="/assets/wp-content/uploads/2018/02/16.jpg"
+                                                            class="attachment-medium size-medium" alt=""
+                                                            decoding="async" loading="lazy"
+                                                            sizes="(max-width: 280px) 100vw, 280px" />
+                                                    </div>
+                                                </div>
+                                                <div class="box-text text-center">
+                                                    <div class="box-text-inner">
+                                                        <h6 class="uppercase portfolio-box-title">Nhà số 2</h6>
+                                                        <p class="uppercase portfolio-box-category is-xsmall op-6">
+                                                            <span class="show-on-hover">
+                                                                Biệt thự </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col" data-terms="[&quot;Biệt thự&quot;]">
+                                    <div class="col-inner">
+                                        <a href="/project/du-biet-thu-15/" class="plain ">
+                                            <div class="portfolio-box box has-hover">
+                                                <div class="box-image">
+                                                    <div class="">
+                                                        <img width="280" height="400"
+                                                            src="/assets/wp-content/uploads/2018/02/150911_NH_Back-view.jpg"
+                                                            class="attachment-medium size-medium" alt=""
+                                                            decoding="async" loading="lazy"
+                                                            sizes="(max-width: 280px) 100vw, 280px" />
+                                                    </div>
+                                                </div>
+                                                <div class="box-text text-center">
+                                                    <div class="box-text-inner">
+                                                        <h6 class="uppercase portfolio-box-title">Dự án Biệt thự 15
+                                                        </h6>
+                                                        <p class="uppercase portfolio-box-category is-xsmall op-6">
+                                                            <span class="show-on-hover">
+                                                                Biệt thự </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col" data-terms="[&quot;Biệt thự&quot;]">
+                                    <div class="col-inner">
+                                        <a href="/project/nha-so-2/" class="plain ">
+                                            <div class="portfolio-box box has-hover">
+                                                <div class="box-image">
+                                                    <div class="">
+                                                        <img width="280" height="400"
+                                                            src="/assets/wp-content/uploads/2018/02/16.jpg"
+                                                            class="attachment-medium size-medium" alt=""
+                                                            decoding="async" loading="lazy"
+                                                            sizes="(max-width: 280px) 100vw, 280px" />
+                                                    </div>
+                                                </div>
+                                                <div class="box-text text-center">
+                                                    <div class="box-text-inner">
+                                                        <h6 class="uppercase portfolio-box-title">Nhà số 2</h6>
+                                                        <p class="uppercase portfolio-box-category is-xsmall op-6">
+                                                            <span class="show-on-hover">
+                                                                Biệt thự </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col" data-terms="[&quot;Biệt thự&quot;]">
+                                    <div class="col-inner">
+                                        <a href="/project/du-biet-thu-15/" class="plain ">
                                             <div class="portfolio-box box has-hover">
                                                 <div class="box-image">
                                                     <div class="">
@@ -1123,37 +1105,13 @@
         <script type='text/javascript'
             src='/assets/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'>
         </script>
-        <script type='text/javascript' id='contact-form-7-js-extra'>
-            /* <![CDATA[ */
-            var wpcf7 = {
-                "api": {
-                    "root": "https:\/\/kientruc4.mauthemewp.com\/wp-json\/",
-                    "namespace": "contact-form-7\/v1"
-                }
-            };
-            /* ]]> */
-        </script>
+
         <script type='text/javascript'
             src='/assets/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4.2'
             id='contact-form-7-js'></script>
         <script type='text/javascript'
             src='/assets/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.5.7.1'
             id='jquery-blockui-js'></script>
-        <script type='text/javascript' id='wc-add-to-cart-js-extra'>
-            /* <![CDATA[ */
-            var wc_add_to_cart_params = {
-                "ajax_url": "\/wp-admin\/admin-ajax.php",
-                "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
-                "i18n_view_cart": "Xem gi\u1ecf h\u00e0ng",
-                "cart_url": "https:\/\/kientruc4.mauthemewp.com\/gio-hang\/",
-                "is_cart": "",
-                "cart_redirect_after_add": "no"
-            };
-            /* ]]> */
-        </script>
-        <script type='text/javascript'
-            src='/assets/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.7.1'
-            id='wc-add-to-cart-js'></script>
         <script type='text/javascript'
             src='/assets/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.5.7.1'
             id='js-cookie-js'></script>
@@ -1193,10 +1151,8 @@
                 "theme": {
                     "version": "3.14.3"
                 },
-                "ajaxurl": "https:\/\/kientruc4.mauthemewp.com\/wp-admin\/admin-ajax.php",
                 "rtl": "",
                 "sticky_height": "70",
-                "assets_url": "https:\/\/kientruc4.mauthemewp.com\/wp-content\/themes\/flatsome\/assets\/js\/",
                 "lightbox": {
                     "close_markup": "<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>",
                     "close_btn_inside": false
@@ -1231,80 +1187,5 @@
         <script type='text/javascript'
             src='/assets/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=b3c807cf00d38de8d7f31c1197eb135d'
             id='flatsome-theme-woocommerce-js-js'></script>
-        <script type='text/javascript' id='zxcvbn-async-js-extra'>
-            /* <![CDATA[ */
-            var _zxcvbnSettings = {
-                "src": "https:\/\/kientruc4.mauthemewp.com\/wp-includes\/js\/zxcvbn.min.js"
-            };
-            /* ]]> */
-        </script>
-        <script type='text/javascript' src='/assets/wp-includes/js/zxcvbn-async.min.js?ver=1.0'
-            id='zxcvbn-async-js'></script>
-        <script type='text/javascript'
-            src='/assets/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5' id='wp-hooks-js'>
-        </script>
-        <script type='text/javascript'
-            src='/assets/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae' id='wp-i18n-js'>
-        </script>
-        <script type='text/javascript' id='wp-i18n-js-after'>
-            wp.i18n.setLocaleData({
-                'text direction\u0004ltr': ['ltr']
-            });
-        </script>
-        <script type='text/javascript' id='password-strength-meter-js-extra'>
-            /* <![CDATA[ */
-            var pwsL10n = {
-                "unknown": "M\u1eadt kh\u1ea9u m\u1ea1nh kh\u00f4ng x\u00e1c \u0111\u1ecbnh",
-                "short": "R\u1ea5t y\u1ebfu",
-                "bad": "Y\u1ebfu",
-                "good": "Trung b\u00ecnh",
-                "strong": "M\u1ea1nh",
-                "mismatch": "M\u1eadt kh\u1ea9u kh\u00f4ng kh\u1edbp"
-            };
-            /* ]]> */
-        </script>
-        <script type='text/javascript' id='password-strength-meter-js-translations'>
-            (function(domain, translations) {
-                var localeData = translations.locale_data[domain] || translations.locale_data.messages;
-                localeData[""].domain = domain;
-                wp.i18n.setLocaleData(localeData, domain);
-            })("default", {
-                "translation-revision-date": "2023-07-15 15:29:09+0000",
-                "generator": "GlotPress\/4.0.0-alpha.9",
-                "domain": "messages",
-                "locale_data": {
-                    "messages": {
-                        "": {
-                            "domain": "messages",
-                            "plural-forms": "nplurals=1; plural=0;",
-                            "lang": "vi_VN"
-                        },
-                        "%1$s is deprecated since version %2$s! Use %3$s instead. Please consider writing more inclusive code.": [
-                            "%1$s \u0111\u00e3 ng\u1eebng ho\u1ea1t \u0111\u1ed9ng t\u1eeb phi\u00ean b\u1ea3n %2$s! S\u1eed d\u1ee5ng thay th\u1ebf b\u1eb1ng %3$s."
-                        ]
-                    }
-                },
-                "comment": {
-                    "reference": "wp-admin\/js\/password-strength-meter.js"
-                }
-            });
-        </script>
-        <script type='text/javascript'
-            src='/assets/wp-admin/js/password-strength-meter.min.js?ver=6.2.6'
-            id='password-strength-meter-js'></script>
-        <script type='text/javascript' id='wc-password-strength-meter-js-extra'>
-            /* <![CDATA[ */
-            var wc_password_strength_meter_params = {
-                "min_password_strength": "3",
-                "stop_checkout": "",
-                "i18n_password_error": "Vui l\u00f2ng nh\u1eadp m\u1eadt kh\u1ea9u kh\u00f3 h\u01a1n.",
-                "i18n_password_hint": "G\u1ee3i \u00fd: M\u1eadt kh\u1ea9u ph\u1ea3i c\u00f3 \u00edt nh\u1ea5t 12 k\u00fd t\u1ef1. \u0110\u1ec3 n\u00e2ng cao \u0111\u1ed9 b\u1ea3o m\u1eadt, s\u1eed d\u1ee5ng ch\u1eef in hoa, in th\u01b0\u1eddng, ch\u1eef s\u1ed1 v\u00e0 c\u00e1c k\u00fd t\u1ef1 \u0111\u1eb7c bi\u1ec7t nh\u01b0 ! \" ? $ % ^ & )."
-            };
-            /* ]]> */
-        </script>
-        <script type='text/javascript'
-            src='/assets/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js?ver=5.7.1'
-            id='wc-password-strength-meter-js'></script>
-
     </body>
 </div>
