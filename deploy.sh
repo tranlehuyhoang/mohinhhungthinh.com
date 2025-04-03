@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Đường dẫn thư mục dự án
-USERNAME=""
+USERNAME="tranlehuyhoang"
 
 PROJECT_DIR="/var/www/mohinhhungthinh.com"
 GIT_REPO="https://github.com/${USERNAME}/mohinhhungthinh.com.git"
