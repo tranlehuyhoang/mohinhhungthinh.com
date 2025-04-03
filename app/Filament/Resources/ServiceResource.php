@@ -12,44 +12,77 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Str;
 
 class ServiceResource extends Resource
 {
     protected static ?string $model = Service::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
-
+    protected static ?string $navigationGroup = 'Quản lý dịch vụ';
+    protected static ?string $navigationLabel = 'Dịch vụ';
+    public static function getPluralModelLabel(): string
+    {
+        return 'Danh sách dịch vụ';
+    }
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('banner')
-                    ->required()
-                    ->maxLength(255),
-                Forms\Components\TextInput::make('title')
-                    ->required()
-                    ->maxLength(255),
-                Forms\Components\TextInput::make('slug')
-                    ->required()
-                    ->maxLength(255),
-                Forms\Components\Textarea::make('short_desc')
-                    ->required()
-                    ->columnSpanFull(),
-                Forms\Components\Textarea::make('content')
-                    ->required()
-                    ->columnSpanFull(),
+                Forms\Components\Tabs::make('Thông tin dịch vụ')
+                    ->tabs([
+                        Forms\Components\Tabs\Tab::make('Chi tiết dịch vụ')
+                            ->schema([
+                                Forms\Components\FileUpload::make('banner')
+                                    ->imageEditor()
+                                    ->label('Banner')
+                                    ->required(),
+
+                                Forms\Components\TextInput::make('title')
+                                    ->label('Tên dịch vụ')
+                                    ->required()
+                                    ->live(onBlur: true)
+                                    ->afterStateUpdated(
+                                        fn(string $operation, $state, Forms\Set $set) =>
+                                        $operation === 'create' ? $set('slug', Str::slug($state)) : null
+                                    )
+                                    ->maxLength(255),
+
+                                Forms\Components\TextInput::make('slug')
+                                    ->label('Slug')
+                                    ->dehydrated()
+                                    ->unique(Service::class, ignoreRecord: true)
+                                    ->required()
+                                    ->maxLength(255),
+
+
+                            ]),
+
+                        Forms\Components\Tabs\Tab::make('Mô tả')
+                            ->schema([
+                                Forms\Components\Textarea::make('short_desc')
+                                ->label('Mô tả ngắn')
+                                ->required()
+                                ->columnSpanFull(),
+
+                            Forms\Components\RichEditor::make('content')
+                                ->label('Nội dung')
+                                ->required()
+                                ->columnSpanFull(),
+                            ]),
+                    ])
+                    ->columnSpanFull(), // Đặt chiều rộng cho toàn bộ tab
             ]);
     }
-
     public static function table(Table $table): Table
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('banner')
+                Tables\Columns\ImageColumn::make('banner')
+                    ->label('Banner')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('title')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('slug')
+                    ->label('Tên dịch vụ')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
@@ -64,14 +97,25 @@ class ServiceResource extends Resource
                 //
             ])
             ->actions([
-                Tables\Actions\ViewAction::make(),
-                Tables\Actions\EditAction::make(),
+                Tables\Actions\ActionGroup::make([
+                    Tables\Actions\ViewAction::make()
+                        ->label('Xem'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\EditAction::make()
+                        ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\DeleteAction::make()
+                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                ])
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
+                    Tables\Actions\DeleteBulkAction::make()
+                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
                 ]),
             ]);
+    }
+     public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
     }
 
     public static function getRelations(): array

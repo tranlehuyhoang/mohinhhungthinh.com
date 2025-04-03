@@ -13,7 +13,6 @@ class ViewIntroduction extends ViewRecord
     protected function getHeaderActions(): array
     {
         return [
-            Actions\EditAction::make(),
         ];
     }
 }

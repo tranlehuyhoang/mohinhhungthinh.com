@@ -18,12 +18,17 @@ class IntroductionResource extends Resource
     protected static ?string $model = Introduction::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationLabel = 'Giới thiệu';
+    public static function getPluralModelLabel(): string
+    {
+        return 'Giới thiệu';
+    }
 
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
-                Forms\Components\Textarea::make('content')
+                Forms\Components\RichEditor::make('content')
                     ->required()
                     ->columnSpanFull(),
             ]);
@@ -36,7 +41,7 @@ class IntroductionResource extends Resource
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
-                    ->toggleable(isToggledHiddenByDefault: true),
+                  ,
                 Tables\Columns\TextColumn::make('updated_at')
                     ->dateTime()
                     ->sortable()
@@ -46,16 +51,26 @@ class IntroductionResource extends Resource
                 //
             ])
             ->actions([
-                Tables\Actions\ViewAction::make(),
-                Tables\Actions\EditAction::make(),
+                Tables\Actions\ActionGroup::make([
+                    Tables\Actions\ViewAction::make()
+                        ->label('Xem'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\EditAction::make()
+                        ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\DeleteAction::make()
+                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                ])
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
+                    Tables\Actions\DeleteBulkAction::make()
+                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
                 ]),
             ]);
     }
-
+     public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
+    }
     public static function getRelations(): array
     {
         return [
@@ -67,9 +82,7 @@ class IntroductionResource extends Resource
     {
         return [
             'index' => Pages\ListIntroductions::route('/'),
-            'create' => Pages\CreateIntroduction::route('/create'),
             'view' => Pages\ViewIntroduction::route('/{record}'),
-            'edit' => Pages\EditIntroduction::route('/{record}/edit'),
         ];
     }
 }

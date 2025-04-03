@@ -24,4 +24,7 @@ class Project extends Model
     {
         return $this->belongsTo(ProjectCategory::class);
     }
+    protected $casts = [
+        'images' => 'array',
+    ];
 }
