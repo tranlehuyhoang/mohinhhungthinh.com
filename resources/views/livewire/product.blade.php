@@ -485,129 +485,6 @@
     <body
         class="product-template-default single single-product postid-202 theme-flatsome woocommerce woocommerce-page woocommerce-no-js lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border">
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-dark-grayscale">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0 0.49803921568627" />
-                        <feFuncG type="table" tableValues="0 0.49803921568627" />
-                        <feFuncB type="table" tableValues="0 0.49803921568627" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-grayscale">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0 1" />
-                        <feFuncG type="table" tableValues="0 1" />
-                        <feFuncB type="table" tableValues="0 1" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-purple-yellow">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
-                        <feFuncG type="table" tableValues="0 1" />
-                        <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-blue-red">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0 1" />
-                        <feFuncG type="table" tableValues="0 0.27843137254902" />
-                        <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-midnight">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0 0" />
-                        <feFuncG type="table" tableValues="0 0.64705882352941" />
-                        <feFuncB type="table" tableValues="0 1" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-magenta-yellow">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0.78039215686275 1" />
-                        <feFuncG type="table" tableValues="0 0.94901960784314" />
-                        <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-purple-green">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
-                        <feFuncG type="table" tableValues="0 1" />
-                        <feFuncB type="table" tableValues="0.44705882352941 0.4" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-blue-orange">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                        values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0.098039215686275 1" />
-                        <feFuncG type="table" tableValues="0 0.66274509803922" />
-                        <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-        </svg>
-        <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
-
         <div id="wrapper">
 
             @livewire('inc.header')
@@ -649,57 +526,57 @@
                     "dragThreshold" : 15,
                     "pageDots": false,
                     "rightToLeft": false       }'>
-                                                <div data-thumb="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3-100x100.jpg"
+                                                <div data-thumb="/assets/wp-content/uploads/2018/02/a3-100x100.jpg"
                                                     class="woocommerce-product-gallery__image slide first"><a
-                                                        href="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3.jpg"><img
+                                                        href="/assets/wp-content/uploads/2018/02/a3.jpg"><img
                                                             width="510" height="383"
                                                             src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20800%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
                                                             class="lazy-load wp-post-image skip-lazy" alt=""
                                                             decoding="async" loading="lazy" title="a3" data-caption=""
-                                                            data-src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3.jpg"
-                                                            data-large_image="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3.jpg"
+                                                            data-src="/assets/wp-content/uploads/2018/02/a3.jpg"
+                                                            data-large_image="/assets/wp-content/uploads/2018/02/a3.jpg"
                                                             data-large_image_width="800" data-large_image_height="600"
                                                             srcset=""
-                                                            data-srcset="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3-510x383.jpg 510w, https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3-533x400.jpg 533w, https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3-768x576.jpg 768w, https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3.jpg 800w"
+                                                            data-srcset="/assets/wp-content/uploads/2018/02/a3-510x383.jpg 510w, /assets/wp-content/uploads/2018/02/a3-533x400.jpg 533w, /assets/wp-content/uploads/2018/02/a3-768x576.jpg 768w, /assets/wp-content/uploads/2018/02/a3.jpg 800w"
                                                             sizes="(max-width: 510px) 100vw, 510px" /></a></div>
-                                                <div data-thumb="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a2-100x100.jpg"
+                                                <div data-thumb="/assets/wp-content/uploads/2018/02/a2-100x100.jpg"
                                                     class="woocommerce-product-gallery__image slide"><a
-                                                        href="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a2.jpg"><img
+                                                        href="/assets/wp-content/uploads/2018/02/a2.jpg"><img
                                                             width="510" height="383"
                                                             src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20800%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
                                                             class="lazy-load skip-lazy" alt="" decoding="async"
                                                             loading="lazy" title="a2" data-caption=""
-                                                            data-src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a2.jpg"
-                                                            data-large_image="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a2.jpg"
+                                                            data-src="/assets/wp-content/uploads/2018/02/a2.jpg"
+                                                            data-large_image="/assets/wp-content/uploads/2018/02/a2.jpg"
                                                             data-large_image_width="800" data-large_image_height="600"
                                                             srcset=""
-                                                            data-srcset="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a2-510x383.jpg 510w, https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a2-533x400.jpg 533w, https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a2-768x576.jpg 768w, https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a2.jpg 800w"
+                                                            data-srcset="/assets/wp-content/uploads/2018/02/a2-510x383.jpg 510w, /assets/wp-content/uploads/2018/02/a2-533x400.jpg 533w, /assets/wp-content/uploads/2018/02/a2-768x576.jpg 768w, /assets/wp-content/uploads/2018/02/a2.jpg 800w"
                                                             sizes="(max-width: 510px) 100vw, 510px" /></a></div>
-                                                <div data-thumb="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3-100x100.jpg"
+                                                <div data-thumb="/assets/wp-content/uploads/2018/02/a3-100x100.jpg"
                                                     class="woocommerce-product-gallery__image slide"><a
-                                                        href="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3.jpg"><img
+                                                        href="/assets/wp-content/uploads/2018/02/a3.jpg"><img
                                                             width="510" height="383"
                                                             src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20800%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
                                                             class="lazy-load skip-lazy" alt="" decoding="async"
                                                             loading="lazy" title="a3" data-caption=""
-                                                            data-src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3.jpg"
-                                                            data-large_image="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3.jpg"
+                                                            data-src="/assets/wp-content/uploads/2018/02/a3.jpg"
+                                                            data-large_image="/assets/wp-content/uploads/2018/02/a3.jpg"
                                                             data-large_image_width="800" data-large_image_height="600"
                                                             srcset=""
-                                                            data-srcset="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3-510x383.jpg 510w, https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3-533x400.jpg 533w, https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3-768x576.jpg 768w, https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3.jpg 800w"
+                                                            data-srcset="/assets/wp-content/uploads/2018/02/a3-510x383.jpg 510w, /assets/wp-content/uploads/2018/02/a3-533x400.jpg 533w, /assets/wp-content/uploads/2018/02/a3-768x576.jpg 768w, /assets/wp-content/uploads/2018/02/a3.jpg 800w"
                                                             sizes="(max-width: 510px) 100vw, 510px" /></a></div>
-                                                <div data-thumb="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a4-100x100.jpg"
+                                                <div data-thumb="/assets/wp-content/uploads/2018/02/a4-100x100.jpg"
                                                     class="woocommerce-product-gallery__image slide"><a
-                                                        href="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a4.jpg"><img
+                                                        href="/assets/wp-content/uploads/2018/02/a4.jpg"><img
                                                             width="510" height="383"
                                                             src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20800%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
                                                             class="lazy-load skip-lazy" alt="" decoding="async"
                                                             loading="lazy" title="a4" data-caption=""
-                                                            data-src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a4.jpg"
-                                                            data-large_image="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a4.jpg"
+                                                            data-src="/assets/wp-content/uploads/2018/02/a4.jpg"
+                                                            data-large_image="/assets/wp-content/uploads/2018/02/a4.jpg"
                                                             data-large_image_width="800" data-large_image_height="600"
                                                             srcset=""
-                                                            data-srcset="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a4-510x383.jpg 510w, https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a4-533x400.jpg 533w, https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a4-768x576.jpg 768w, https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a4.jpg 800w"
+                                                            data-srcset="/assets/wp-content/uploads/2018/02/a4-510x383.jpg 510w, /assets/wp-content/uploads/2018/02/a4-533x400.jpg 533w, /assets/wp-content/uploads/2018/02/a4-768x576.jpg 768w, /assets/wp-content/uploads/2018/02/a4.jpg 800w"
                                                             sizes="(max-width: 510px) 100vw, 510px" /></a></div>
                                             </figure>
 
@@ -726,23 +603,23 @@
             }'>
                                             <div class="col is-nav-selected first">
                                                 <a>
-                                                    <img src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3-247x296.jpg"
+                                                    <img src="/assets/wp-content/uploads/2018/02/a3-247x296.jpg"
                                                         alt="" width="247" height="296"
                                                         class="attachment-woocommerce_thumbnail" /> </a>
                                             </div>
                                             <div class="col"><a><img
                                                         src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                                        data-src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a2-247x296.jpg"
+                                                        data-src="/assets/wp-content/uploads/2018/02/a2-247x296.jpg"
                                                         alt="" width="247" height="296"
                                                         class="lazy-load attachment-woocommerce_thumbnail" /></a></div>
                                             <div class="col"><a><img
                                                         src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                                        data-src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a3-247x296.jpg"
+                                                        data-src="/assets/wp-content/uploads/2018/02/a3-247x296.jpg"
                                                         alt="" width="247" height="296"
                                                         class="lazy-load attachment-woocommerce_thumbnail" /></a></div>
                                             <div class="col"><a><img
                                                         src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                                        data-src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a4-247x296.jpg"
+                                                        data-src="/assets/wp-content/uploads/2018/02/a4-247x296.jpg"
                                                         alt="" width="247" height="296"
                                                         class="lazy-load attachment-woocommerce_thumbnail" /></a></div>
                                         </div>
@@ -751,9 +628,9 @@
                                     <div class="product-info summary col-fit col entry-summary product-summary">
 
                                         <nav class="woocommerce-breadcrumb breadcrumbs uppercase"><a
-                                                href="https://kientruc4.mauthemewp.com">Trang chủ</a> <span
+                                                href="/">Trang chủ</a> <span
                                                 class="divider">&#47;</span> <a
-                                                href="https://kientruc4.mauthemewp.com/danh-muc/noi-that/">Nội thất</a>
+                                                href="/products?category_id=1">Nội thất</a>
                                         </nav>
                                         <h1 class="product-title product_title entry-title">
                                             Nội thất nhà xinh 2</h1>
@@ -777,7 +654,7 @@
 
 
                                             <span class="posted_in">Danh mục: <a
-                                                    href="https://kientruc4.mauthemewp.com/danh-muc/noi-that/"
+                                                    href="/products?category_id=1"
                                                     rel="tag">Nội
                                                     thất</a></span>
 
@@ -817,12 +694,24 @@
                                                 aria-labelledby="tab-title-description">
 
 
-                                                <p><iframe src="https://player.vimeo.com/video/248422299" width="640"
-                                                        height="360" frameborder="0" webkitallowfullscreen
-                                                        mozallowfullscreen allowfullscreen></iframe></p>
-                                                <p><a href="https://vimeo.com/248422299">Tresor 2416</a> from <a
-                                                        href="https://vimeo.com/user67998331">Nam Phan</a> on <a
-                                                        href="https://vimeo.com">Vimeo</a>.</p>
+                                                <p>
+                                                    Nội Thất Nhà Xinh 2 là một bộ sưu tập độc đáo, mang đến sự kết hợp hoàn hảo giữa tính năng và thẩm mỹ cho không gian sống của bạn. Với thiết kế hiện đại và tinh tế, sản phẩm này không chỉ làm đẹp cho ngôi nhà mà còn tối ưu hóa công năng sử dụng.
+
+Đặc Điểm Nổi Bật:
+Chất Liệu Cao Cấp: Sản phẩm được làm từ gỗ tự nhiên và các vật liệu bền bỉ, an toàn cho sức khỏe, đảm bảo độ bền lâu dài.
+Thiết Kế Độc Đáo: Mỗi món đồ đều mang dấu ấn nghệ thuật riêng, phù hợp với nhiều phong cách trang trí khác nhau, từ cổ điển đến hiện đại.
+Độ Tiện Nghi: Các sản phẩm được thiết kế thông minh, dễ dàng kết hợp và sắp xếp, giúp tối ưu hóa không gian sống của bạn.
+Công Năng:
+Tăng Cường Tính Năng Sử Dụng: Nội thất đa chức năng giúp bạn tiết kiệm diện tích, lý tưởng cho những ngôi nhà nhỏ.
+Dễ Dàng Bảo Quản: Bề mặt dễ lau chùi và bảo trì, giúp bạn tiết kiệm thời gian chăm sóc.
+Lợi Ích Khi Sử Dụng:
+Tạo Không Gian Thoải Mái: Mang lại cảm giác ấm cúng và thân thiện, giúp bạn thư giãn sau những giờ làm việc căng thẳng.
+Nâng Tầm Thẩm Mỹ: Sản phẩm không chỉ là đồ nội thất mà còn là tác phẩm nghệ thuật, làm nổi bật phong cách sống của bạn.
+Hãy để Nội Thất Nhà Xinh 2 biến không gian sống của bạn trở nên hoàn hảo hơn bao giờ hết!
+
+
+                                                </p>
+
                                             </div>
                                             <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--reviews panel entry-content "
                                                 id="tab-reviews" role="tabpanel" aria-labelledby="tab-title-reviews">
@@ -847,7 +736,7 @@
                                                                                 style="display:none;">Hủy</a></small>
                                                                     </h3>
                                                                     <form
-                                                                        action="https://kientruc4.mauthemewp.com/wp-comments-post.php"
+                                                                        action="/assets/wp-comments-post.php"
                                                                         method="post" id="commentform"
                                                                         class="comment-form" novalidate>
                                                                         <div class="comment-form-rating"><label
@@ -934,16 +823,16 @@
                                                     <div class="product-small box ">
                                                         <div class="box-image">
                                                             <div class="image-fade_in_back">
-                                                                <a href="https://kientruc4.mauthemewp.com/san-pham/noi-nha-xinh-3/"
+                                                                <a href="/product/noi-nha-xinh-3/"
                                                                     aria-label="Nội thất nhà xinh 3">
                                                                     <img width="247" height="296"
                                                                         src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                                                        data-src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a2-247x296.jpg"
+                                                                        data-src="/assets/wp-content/uploads/2018/02/a2-247x296.jpg"
                                                                         class="lazy-load attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                                         alt="" decoding="async" loading="lazy" /><img
                                                                         width="247" height="296"
                                                                         src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                                                        data-src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a2-247x296.jpg"
+                                                                        data-src="/assets/wp-content/uploads/2018/02/a2-247x296.jpg"
                                                                         class="lazy-load show-on-hover absolute fill hide-for-small back-image"
                                                                         alt="" decoding="async" loading="lazy" /> </a>
                                                             </div>
@@ -965,7 +854,166 @@
                                                                     Nội thất </p>
                                                                 <p
                                                                     class="name product-title woocommerce-loop-product__title">
-                                                                    <a href="https://kientruc4.mauthemewp.com/san-pham/noi-nha-xinh-3/"
+                                                                    <a href="/product/noi-nha-xinh-3/"
+                                                                        class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Nội
+                                                                        thất nhà xinh 3</a>
+                                                                </p>
+                                                            </div>
+                                                            <div class="price-wrapper">
+                                                                <span class="price"><span class="lien-he-price">Liên hệ:
+                                                                        094.999.92.95</span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="product-small col has-hover product type-product post-203 status-publish instock product_cat-noi-that has-post-thumbnail shipping-taxable product-type-simple">
+                                                <div class="col-inner">
+
+                                                    <div class="badge-container absolute left top z-1">
+                                                    </div>
+                                                    <div class="product-small box ">
+                                                        <div class="box-image">
+                                                            <div class="image-fade_in_back">
+                                                                <a href="/product/noi-nha-xinh-3/"
+                                                                    aria-label="Nội thất nhà xinh 3">
+                                                                    <img width="247" height="296"
+                                                                        src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
+                                                                        data-src="/assets/wp-content/uploads/2018/02/a2-247x296.jpg"
+                                                                        class="lazy-load attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                                        alt="" decoding="async" loading="lazy" /><img
+                                                                        width="247" height="296"
+                                                                        src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
+                                                                        data-src="/assets/wp-content/uploads/2018/02/a2-247x296.jpg"
+                                                                        class="lazy-load show-on-hover absolute fill hide-for-small back-image"
+                                                                        alt="" decoding="async" loading="lazy" /> </a>
+                                                            </div>
+                                                            <div class="image-tools is-small top right show-on-hover">
+                                                            </div>
+                                                            <div
+                                                                class="image-tools is-small hide-for-small bottom left show-on-hover">
+                                                            </div>
+                                                            <div
+                                                                class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+                                                            </div>
+                                                        </div>
+
+                                                        <div
+                                                            class="box-text box-text-products text-center grid-style-2">
+                                                            <div class="title-wrapper">
+                                                                <p
+                                                                    class="category uppercase is-smaller no-text-overflow product-cat op-7">
+                                                                    Nội thất </p>
+                                                                <p
+                                                                    class="name product-title woocommerce-loop-product__title">
+                                                                    <a href="/product/noi-nha-xinh-3/"
+                                                                        class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Nội
+                                                                        thất nhà xinh 3</a>
+                                                                </p>
+                                                            </div>
+                                                            <div class="price-wrapper">
+                                                                <span class="price"><span class="lien-he-price">Liên hệ:
+                                                                        094.999.92.95</span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="product-small col has-hover product type-product post-203 status-publish instock product_cat-noi-that has-post-thumbnail shipping-taxable product-type-simple">
+                                                <div class="col-inner">
+
+                                                    <div class="badge-container absolute left top z-1">
+                                                    </div>
+                                                    <div class="product-small box ">
+                                                        <div class="box-image">
+                                                            <div class="image-fade_in_back">
+                                                                <a href="/product/noi-nha-xinh-3/"
+                                                                    aria-label="Nội thất nhà xinh 3">
+                                                                    <img width="247" height="296"
+                                                                        src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
+                                                                        data-src="/assets/wp-content/uploads/2018/02/a2-247x296.jpg"
+                                                                        class="lazy-load attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                                        alt="" decoding="async" loading="lazy" /><img
+                                                                        width="247" height="296"
+                                                                        src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
+                                                                        data-src="/assets/wp-content/uploads/2018/02/a2-247x296.jpg"
+                                                                        class="lazy-load show-on-hover absolute fill hide-for-small back-image"
+                                                                        alt="" decoding="async" loading="lazy" /> </a>
+                                                            </div>
+                                                            <div class="image-tools is-small top right show-on-hover">
+                                                            </div>
+                                                            <div
+                                                                class="image-tools is-small hide-for-small bottom left show-on-hover">
+                                                            </div>
+                                                            <div
+                                                                class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+                                                            </div>
+                                                        </div>
+
+                                                        <div
+                                                            class="box-text box-text-products text-center grid-style-2">
+                                                            <div class="title-wrapper">
+                                                                <p
+                                                                    class="category uppercase is-smaller no-text-overflow product-cat op-7">
+                                                                    Nội thất </p>
+                                                                <p
+                                                                    class="name product-title woocommerce-loop-product__title">
+                                                                    <a href="/product/noi-nha-xinh-3/"
+                                                                        class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Nội
+                                                                        thất nhà xinh 3</a>
+                                                                </p>
+                                                            </div>
+                                                            <div class="price-wrapper">
+                                                                <span class="price"><span class="lien-he-price">Liên hệ:
+                                                                        094.999.92.95</span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="product-small col has-hover product type-product post-203 status-publish instock product_cat-noi-that has-post-thumbnail shipping-taxable product-type-simple">
+                                                <div class="col-inner">
+
+                                                    <div class="badge-container absolute left top z-1">
+                                                    </div>
+                                                    <div class="product-small box ">
+                                                        <div class="box-image">
+                                                            <div class="image-fade_in_back">
+                                                                <a href="/product/noi-nha-xinh-3/"
+                                                                    aria-label="Nội thất nhà xinh 3">
+                                                                    <img width="247" height="296"
+                                                                        src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
+                                                                        data-src="/assets/wp-content/uploads/2018/02/a2-247x296.jpg"
+                                                                        class="lazy-load attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                                        alt="" decoding="async" loading="lazy" /><img
+                                                                        width="247" height="296"
+                                                                        src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
+                                                                        data-src="/assets/wp-content/uploads/2018/02/a2-247x296.jpg"
+                                                                        class="lazy-load show-on-hover absolute fill hide-for-small back-image"
+                                                                        alt="" decoding="async" loading="lazy" /> </a>
+                                                            </div>
+                                                            <div class="image-tools is-small top right show-on-hover">
+                                                            </div>
+                                                            <div
+                                                                class="image-tools is-small hide-for-small bottom left show-on-hover">
+                                                            </div>
+                                                            <div
+                                                                class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+                                                            </div>
+                                                        </div>
+
+                                                        <div
+                                                            class="box-text box-text-products text-center grid-style-2">
+                                                            <div class="title-wrapper">
+                                                                <p
+                                                                    class="category uppercase is-smaller no-text-overflow product-cat op-7">
+                                                                    Nội thất </p>
+                                                                <p
+                                                                    class="name product-title woocommerce-loop-product__title">
+                                                                    <a href="/product/noi-nha-xinh-3/"
                                                                         class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Nội
                                                                         thất nhà xinh 3</a>
                                                                 </p>
@@ -994,12 +1042,12 @@
                                                                     aria-label="Nội thất nhà xinh 4">
                                                                     <img width="247" height="296"
                                                                         src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                                                        data-src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a4-247x296.jpg"
+                                                                        data-src="/assets/wp-content/uploads/2018/02/a4-247x296.jpg"
                                                                         class="lazy-load attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                                         alt="" decoding="async" loading="lazy" /><img
                                                                         width="247" height="296"
                                                                         src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                                                        data-src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a2-247x296.jpg"
+                                                                        data-src="/assets/wp-content/uploads/2018/02/a2-247x296.jpg"
                                                                         class="lazy-load show-on-hover absolute fill hide-for-small back-image"
                                                                         alt="" decoding="async" loading="lazy" /> </a>
                                                             </div>
@@ -1050,12 +1098,12 @@
                                                                     aria-label="Nội thất nhà xinh 1">
                                                                     <img width="247" height="296"
                                                                         src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                                                        data-src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a1-247x296.jpg"
+                                                                        data-src="/assets/wp-content/uploads/2018/02/a1-247x296.jpg"
                                                                         class="lazy-load attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                                         alt="" decoding="async" loading="lazy" /><img
                                                                         width="247" height="296"
                                                                         src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                                                        data-src="https://kientruc4.mauthemewp.com/wp-content/uploads/2018/02/a2-247x296.jpg"
+                                                                        data-src="/assets/wp-content/uploads/2018/02/a2-247x296.jpg"
                                                                         class="lazy-load show-on-hover absolute fill hide-for-small back-image"
                                                                         alt="" decoding="async" loading="lazy" /> </a>
                                                             </div>
