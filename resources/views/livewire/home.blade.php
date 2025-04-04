@@ -521,52 +521,24 @@
             "selectedAttraction": 0.1,
             "parallax" : 0,
             "friction": 0.6        }'>
-
-                                    <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1252173460">
+                                @foreach($slides as $slide)
+                                    <div class="img has-hover x md-x lg-x y md-y lg-y home-slider" id="image_.{{ $slide->id }}">
                                         <div class="img-inner dark">
-                                            <img width="1920" height="615"
-                                                src="/assets/wp-content/uploads/2018/02/banner-1.jpg"
-                                                class="lazy-load attachment-original size-original" alt=""
-                                                decoding="async" loading="lazy" srcset=""
-                                                sizes="(max-width: 1920px) 100vw, 1920px" />
+                                            <a href="{{ $slide->link }}">
+                                                <img width="1920" height="615"
+                                                    src="{{ asset('storage/' . $slide->image) }}"
+                                                    class="lazy-load attachment-original size-original" alt=""
+                                                    decoding="async" loading="lazy" srcset=""
+                                                    sizes="(max-width: 1920px) 100vw, 1920px" style="max-height: 400px;" />
+                                            </a>
                                         </div>
-
                                         <style>
-                                            #image_1252173460 {
+                                            .home-slider {
                                                 width: 100%;
                                             }
                                         </style>
                                     </div>
-                                    <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1252173460">
-                                        <div class="img-inner dark">
-                                            <img width="1920" height="615"
-                                                src="/assets/wp-content/uploads/2018/02/banner-1.jpg"
-                                                class="lazy-load attachment-original size-original" alt=""
-                                                decoding="async" loading="lazy" srcset=""
-                                                sizes="(max-width: 1920px) 100vw, 1920px" />
-                                        </div>
-
-                                        <style>
-                                            #image_1252173460 {
-                                                width: 100%;
-                                            }
-                                        </style>
-                                    </div>
-                                    <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1252173460">
-                                        <div class="img-inner dark">
-                                            <img width="1920" height="615"
-                                                src="/assets/wp-content/uploads/2018/02/banner-1.jpg"
-                                                class="lazy-load attachment-original size-original" alt=""
-                                                decoding="async" loading="lazy" srcset=""
-                                                sizes="(max-width: 1920px) 100vw, 1920px" />
-                                        </div>
-
-                                        <style>
-                                            #image_1252173460 {
-                                                width: 100%;
-                                            }
-                                        </style>
-                                    </div>
+                                @endforeach
 
 
                                 </div>
