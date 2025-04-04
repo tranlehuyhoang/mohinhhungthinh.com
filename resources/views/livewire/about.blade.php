@@ -515,11 +515,7 @@
                                         </div>
                                     </header>
                                     <div class="entry-content single-page">
-                                        <p>Công ty Mô hình kiến trúc được ra đời với mục tiêu phát triển ngành mô hình xây dựng – mô hình kiến trúc, một lĩnh vực còn khá mới mẻ tại Việt Nam. Mô hình không chỉ giúp chủ đầu tư có cái nhìn trực quan và tổng quát về công trình của mình, mà còn là một công cụ thu hút đầu tư rất hiệu quả.</p>
-                                        <p>Với đội ngũ chuyên gia có hơn 10 năm kinh nghiệm trong ngành, Mô hình kiến trúc nhận thấy những chuyển biến rõ rệt trong nhận thức của giới xây dựng hiện nay. Việc tạo dựng mô hình đã trở thành nhu cầu thiết yếu của nhiều công ty trước khi thực hiện bất kỳ công trình nào.</p>
-                                        <p>Mô hình kiến trúc là chuyên gia trong lĩnh vực nghiên cứu và sản xuất mô hình xây dựng – mô hình kiến trúc. Trong bối cảnh thị trường Việt Nam còn mới mẻ và chưa xác định được mức giá chung, chúng tôi là đơn vị tiên phong đưa ra bảng giá mô hình chi tiết, cung cấp cho khách hàng thông tin đầy đủ nhất trước khi quyết định.</p>
-                                        <p>Từng thành viên của Mô hình kiến trúc đã, đang và sẽ luôn nỗ lực để tạo nên những sản phẩm đại diện cho “Sự kết hợp hoàn hảo giữa Nghệ thuật & Kỹ thuật” – hai yếu tố tạo nên giá trị cốt lõi của ngành mô hình và cũng là điều chúng tôi tâm niệm.</p>
-                                        <p>Chúng tôi cam kết đem lại cho khách hàng sự hài lòng để cùng phát triển và sẽ không ngừng nỗ lực để quý vị luôn an tâm nghĩ đến Mô hình kiến trúc như lựa chọn đầu tiên cho mọi giải pháp mô hình.</p>
+                                        {!! $intro->content !!}
                                     </div>
                                 </div>
                             </article>
